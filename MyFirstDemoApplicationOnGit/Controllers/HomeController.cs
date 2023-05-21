@@ -15,6 +15,7 @@ namespace MyFirstDemoApplicationOnGit.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
+            ViewBag.Message = "Ankit How are Your";
             _logger = logger;
         }
 
